@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import TodoContainer from "./todo-app/TodoContainer";
 function App() {
   return (
     <div className="App">
-      <h1>basic test</h1>
+<TodoContainer/>
     </div>
   );
 }
